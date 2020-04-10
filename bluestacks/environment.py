@@ -1,17 +1,17 @@
 ################################################################################################
 
 # google credentials
-GOOGLE_SEARCH_ENGINE_ID = '012979118223972576785:ntaftfkva7s'
-GOOGLE_SEARCH_API_KEY = 'AIzaSyCrsRw5md-68JsqUu6IcJk_PPM2xvjMovw'
+GOOGLE_SEARCH_ENGINE_ID = 'GOOGLE_SEARCH_ENGINE_ID'
+GOOGLE_SEARCH_API_KEY = 'GOOGLE_SEARCH_API_KEY'
 
 # mysql db credentials
-MYSQL_DB_HOST = 'localhost'
-MYSQL_DB_USER = 'root'
-MYSQL_DB_PASSWORD = 'flexible96'
-MYSQL_DB_NAME = 'discorbot'
+MYSQL_DB_HOST = 'MYSQL_DB_HOST'
+MYSQL_DB_USER = 'MYSQL_DB_USER'
+MYSQL_DB_PASSWORD = 'MYSQL_DB_PASSWORD'
+MYSQL_DB_NAME = 'MYSQL_DB_NAME'
 
 # discord credentials
-DISCORD_TOKEN = 'Njk4MDI0MDkwMDQ4NjU5NTA2.Xo_1hw.u_DOIV6wr3lu7VkSEwkgaqz3xlI'
+DISCORD_TOKEN = 'DISCORD_TOKEN'
 
 # greeting message
 RECV_GREETING = ['hi', 'HI', 'Hi', 'hello', 'Hello', 'HELLO']
