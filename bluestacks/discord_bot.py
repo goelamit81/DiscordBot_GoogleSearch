@@ -19,7 +19,7 @@ async def bot_google_search(ctx, *args):
         await ctx.send(env.INPUT_REQUIRED_MSG)
     else:
         search_keyword = ' '.join(args)
-        # validate if input is less than or equal to 255 characters
+        # validate if input is less than or equal to max length
         if len(search_keyword) > env.SEARCH_KEY_MAX_LENGTH:
             await ctx.send(env.MAX_INPUT_LENGTH_MSG)
         else:
@@ -49,7 +49,7 @@ async def bot_search_history(ctx, *args):
         await ctx.send(env.INPUT_REQUIRED_MSG)
     else:
         search_keyword = ' '.join(args)
-        # validate if input is less than or equal to 255 characters
+        # validate if input is less than or equal to max length
         if len(search_keyword) > env.SEARCH_KEY_MAX_LENGTH:
             await ctx.send(env.MAX_INPUT_LENGTH_MSG)
         else:
