@@ -18,6 +18,13 @@ async def on_message(message):
     if message.content.lower() in env.RECV_GREETING:
         await message.channel.send(env.SEND_GREETING)
 
+@client.event
+async def on_ready():
+    print('Logged in as')
+    print(client.user.name)
+    print(client.user.id)
+    print('------')
+
 if __name__ == '__main__':
     client.run(env.DISCORD_TOKEN)
 
